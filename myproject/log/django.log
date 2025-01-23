@@ -373,3 +373,214 @@ INFO 2025-01-23 15:24:21,690 basehttp 19052 17824 "GET /mvtu/author/8/ HTTP/1.1"
 INFO 2025-01-23 15:24:25,639 basehttp 19052 17824 "GET /mvtu/post/76/ HTTP/1.1" 200 1115
 WARNING 2025-01-23 15:24:38,614 log 19052 17824 Not Found: /mvtu/author/12/
 WARNING 2025-01-23 15:24:38,626 basehttp 19052 17824 "GET /mvtu/author/12/ HTTP/1.1" 404 5535
+INFO 2025-01-23 23:19:25,465 autoreload 18256 12888 Watching for file changes with StatReloader
+INFO 2025-01-23 23:19:30,735 basehttp 18256 17648 "GET / HTTP/1.1" 200 310
+WARNING 2025-01-23 23:19:39,675 log 18256 17648 Not Found: /user/add
+WARNING 2025-01-23 23:19:39,675 basehttp 18256 17648 "GET /user/add HTTP/1.1" 404 2792
+INFO 2025-01-23 23:19:56,767 basehttp 18256 17648 "GET /forms/user/add HTTP/1.1" 301 0
+INFO 2025-01-23 23:19:56,816 basehttp 18256 13484 "GET /forms/user/add/ HTTP/1.1" 200 838
+INFO 2025-01-23 23:21:35,042 basehttp 18256 13484 "POST /forms/user/add/ HTTP/1.1" 200 884
+INFO 2025-01-23 23:22:29,893 basehttp 18256 13484 "POST /forms/user/add/ HTTP/1.1" 200 884
+INFO 2025-01-23 23:22:40,156 basehttp 18256 13484 "POST /forms/user/add/ HTTP/1.1" 200 885
+INFO 2025-01-23 23:23:14,139 basehttp 18256 13484 "POST /forms/user/add/ HTTP/1.1" 200 885
+INFO 2025-01-23 23:23:14,560 autoreload 18256 12888 C:\Users\chiffka\Documents\Django_Course\myproject\formsapp\views.py changed, reloading.
+INFO 2025-01-23 23:23:15,192 autoreload 14896 8056 Watching for file changes with StatReloader
+INFO 2025-01-23 23:23:28,457 basehttp 14896 11844 "POST /forms/user/add/ HTTP/1.1" 200 885
+INFO 2025-01-23 23:24:02,063 autoreload 14896 8056 C:\Users\chiffka\Documents\Django_Course\myproject\formsapp\views.py changed, reloading.
+INFO 2025-01-23 23:24:02,719 autoreload 9976 16192 Watching for file changes with StatReloader
+INFO 2025-01-23 23:24:06,440 basehttp 9976 9644 "POST /forms/user/add/ HTTP/1.1" 200 885
+INFO 2025-01-23 23:29:43,921 autoreload 9976 16192 C:\Users\chiffka\Documents\Django_Course\myproject\myproject\settings.py changed, reloading.
+INFO 2025-01-23 23:29:44,665 autoreload 16428 16900 Watching for file changes with StatReloader
+INFO 2025-01-23 23:29:58,598 basehttp 16428 13068 "POST /forms/user/add/ HTTP/1.1" 200 885
+INFO 2025-01-23 23:30:02,676 basehttp 16428 13068 "POST /forms/user/add/ HTTP/1.1" 200 885
+INFO 2025-01-23 23:30:30,207 basehttp 16428 13068 "POST /forms/user/add/ HTTP/1.1" 200 886
+INFO 2025-01-23 23:32:54,764 autoreload 16428 16900 C:\Users\chiffka\Documents\Django_Course\myproject\formsapp\forms.py changed, reloading.
+INFO 2025-01-23 23:32:55,460 autoreload 9492 11892 Watching for file changes with StatReloader
+INFO 2025-01-23 23:59:39,566 autoreload 12916 8804 Watching for file changes with StatReloader
+ERROR 2025-01-24 00:00:38,017 log 12916 17444 Internal Server Error: /forms/many_fields_form
+Traceback (most recent call last):
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\myproject\formsapp\views.py", line 31, in many_fields_form
+    return render(request, 'formsapp/many_fields_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 3: 'endblock'. Did you forget to register or load this tag?
+ERROR 2025-01-24 00:00:38,017 basehttp 12916 17444 "GET /forms/many_fields_form HTTP/1.1" 500 151202
+INFO 2025-01-24 00:02:17,187 basehttp 12916 17444 "GET /forms/many_fields_form HTTP/1.1" 200 1513
+ERROR 2025-01-24 00:04:04,568 log 12916 17444 Internal Server Error: /forms/many_fields_form
+Traceback (most recent call last):
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\myproject\formsapp\views.py", line 25, in many_fields_form
+    form = ManyFieldsForm(request.FORM)
+                          ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'FORM'
+ERROR 2025-01-24 00:04:04,569 basehttp 12916 17444 "POST /forms/many_fields_form HTTP/1.1" 500 68811
+INFO 2025-01-24 00:06:34,819 autoreload 12916 8804 C:\Users\chiffka\Documents\Django_Course\myproject\formsapp\views.py changed, reloading.
+INFO 2025-01-24 00:06:35,424 autoreload 16944 15740 Watching for file changes with StatReloader
+INFO 2025-01-24 00:06:37,662 basehttp 16944 13672 "GET /forms/many_fields_form HTTP/1.1" 200 1513
+INFO 2025-01-24 00:06:52,618 basehttp 16944 13672 "POST /forms/many_fields_form HTTP/1.1" 200 1589
+INFO 2025-01-24 00:24:01,621 autoreload 16944 15740 C:\Users\chiffka\Documents\Django_Course\myproject\formsapp\forms.py changed, reloading.
+INFO 2025-01-24 00:24:02,272 autoreload 16648 11400 Watching for file changes with StatReloader
+INFO 2025-01-24 00:26:37,201 autoreload 16648 11400 C:\Users\chiffka\Documents\Django_Course\myproject\formsapp\forms.py changed, reloading.
+INFO 2025-01-24 00:26:37,821 autoreload 14100 17360 Watching for file changes with StatReloader
+INFO 2025-01-24 00:26:52,536 autoreload 14100 17360 C:\Users\chiffka\Documents\Django_Course\myproject\formsapp\views.py changed, reloading.
+INFO 2025-01-24 00:26:53,083 autoreload 11844 3200 Watching for file changes with StatReloader
+INFO 2025-01-24 00:27:51,460 autoreload 11844 3200 C:\Users\chiffka\Documents\Django_Course\myproject\formsapp\views.py changed, reloading.
+INFO 2025-01-24 00:27:52,016 autoreload 16944 16044 Watching for file changes with StatReloader
+INFO 2025-01-24 00:28:26,627 basehttp 16944 12836 "POST /forms/many_fields_form HTTP/1.1" 200 2289
+INFO 2025-01-24 00:29:44,562 basehttp 16944 12836 "POST /forms/many_fields_form HTTP/1.1" 200 2265
+INFO 2025-01-24 00:31:30,646 autoreload 16944 16044 C:\Users\chiffka\Documents\Django_Course\myproject\formsapp\forms.py changed, reloading.
+INFO 2025-01-24 00:31:31,640 autoreload 17196 7840 Watching for file changes with StatReloader
+INFO 2025-01-24 00:31:38,970 basehttp 17196 18020 "POST /forms/many_fields_form HTTP/1.1" 200 2265
+INFO 2025-01-24 00:31:45,320 basehttp 17196 18020 "POST /forms/many_fields_form HTTP/1.1" 200 2265
+INFO 2025-01-24 00:33:15,506 autoreload 17196 7840 C:\Users\chiffka\Documents\Django_Course\myproject\formsapp\forms.py changed, reloading.
+INFO 2025-01-24 00:33:16,131 autoreload 19080 16740 Watching for file changes with StatReloader
+INFO 2025-01-24 01:55:32,943 autoreload 19352 17144 Watching for file changes with StatReloader
+INFO 2025-01-24 01:55:47,125 basehttp 19352 19220 "GET /forms/user HTTP/1.1" 301 0
+INFO 2025-01-24 01:55:47,156 basehttp 19352 12556 "GET /forms/user/ HTTP/1.1" 200 877
+INFO 2025-01-24 01:57:27,614 basehttp 19352 12556 "POST /forms/user/ HTTP/1.1" 200 931
+INFO 2025-01-24 01:57:47,571 autoreload 19352 17144 C:\Users\chiffka\Documents\Django_Course\myproject\formsapp\forms.py changed, reloading.
+INFO 2025-01-24 01:57:48,237 autoreload 15340 8092 Watching for file changes with StatReloader
+INFO 2025-01-24 01:58:56,225 autoreload 15340 8092 C:\Users\chiffka\Documents\Django_Course\myproject\formsapp\forms.py changed, reloading.
+INFO 2025-01-24 01:58:56,774 autoreload 15848 1380 Watching for file changes with StatReloader
+INFO 2025-01-24 01:58:58,073 basehttp 15848 5520 "GET /forms/user/ HTTP/1.1" 200 877
+INFO 2025-01-24 01:59:11,671 basehttp 15848 5520 "POST /forms/user/ HTTP/1.1" 200 1164
+INFO 2025-01-24 01:59:23,916 basehttp 15848 5520 "POST /forms/user/ HTTP/1.1" 200 941
+INFO 2025-01-24 02:00:42,779 autoreload 15848 1380 C:\Users\chiffka\Documents\Django_Course\myproject\formsapp\views.py changed, reloading.
+INFO 2025-01-24 02:00:43,479 autoreload 18588 2868 Watching for file changes with StatReloader
+INFO 2025-01-24 02:02:33,300 autoreload 18588 2868 C:\Users\chiffka\Documents\Django_Course\myproject\formsapp\forms.py changed, reloading.
+INFO 2025-01-24 02:02:33,974 autoreload 14308 15672 Watching for file changes with StatReloader
+INFO 2025-01-24 02:21:37,302 autoreload 8840 17256 Watching for file changes with StatReloader
+INFO 2025-01-24 02:21:46,682 basehttp 8840 8684 "GET /forms/upload HTTP/1.1" 301 0
+ERROR 2025-01-24 02:21:46,745 log 8840 1180 Internal Server Error: /forms/upload/
+Traceback (most recent call last):
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'csrf-token'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\myproject\formsapp\views.py", line 73, in upload_image
+    return render(request, 'formsapp/upload_image.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\base.py", line 563, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'csrf-token', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2025-01-24 02:21:46,745 basehttp 8840 1180 "GET /forms/upload/ HTTP/1.1" 500 165979
+INFO 2025-01-24 02:23:48,598 basehttp 8840 1180 "GET /forms/upload/ HTTP/1.1" 200 679
+INFO 2025-01-24 02:24:31,110 basehttp 8840 1180 "POST /forms/upload/ HTTP/1.1" 200 679

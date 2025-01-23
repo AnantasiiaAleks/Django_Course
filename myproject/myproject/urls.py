@@ -25,4 +25,5 @@ urlpatterns = [
     path('prefix/', include('myapp.urls')),
     path('mvtu/', include('mvtuapp.urls')),
     path('', index),
+    path('forms/', include('formsapp.urls')),
 ]
