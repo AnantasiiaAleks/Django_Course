@@ -18,7 +18,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+from mvtuapp.views import index
+
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('prefix/', include('myapp.urls')),
+    path('mvtu/', include('mvtuapp.urls')),
+    path('', index),
 ]
