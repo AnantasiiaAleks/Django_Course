@@ -26,4 +26,6 @@ urlpatterns = [
     path('mvtu/', include('mvtuapp.urls')),
     path('', index),
     path('forms/', include('formsapp.urls')),
+    # path('__debug__/', include("debug_toolbar.urls")),
+    path('installapp/', include('installapp.urls')),
 ]

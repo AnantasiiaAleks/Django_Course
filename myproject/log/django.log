@@ -834,3 +834,121 @@ INFO 2025-01-24 14:21:46,436 basehttp 5568 17504 "GET /admin/adminapp/product/ H
 INFO 2025-01-24 14:21:46,455 basehttp 5568 17504 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
 INFO 2025-01-24 14:21:49,452 basehttp 5568 17504 "GET /admin/adminapp/product/3/change/ HTTP/1.1" 200 16959
 INFO 2025-01-24 14:21:49,470 basehttp 5568 17504 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2025-01-24 23:57:53,692 autoreload 18112 17840 Watching for file changes with StatReloader
+INFO 2025-01-25 00:00:50,326 autoreload 6832 5816 Watching for file changes with StatReloader
+INFO 2025-01-25 00:01:06,523 basehttp 6832 18980 "GET / HTTP/1.1" 200 14282
+INFO 2025-01-25 00:01:06,566 basehttp 6832 14352 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+INFO 2025-01-25 00:01:06,567 basehttp 6832 18980 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 21178
+INFO 2025-01-25 00:01:06,567 basehttp 6832 18980 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2025-01-25 00:01:06,593 basehttp 6832 18980 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+INFO 2025-01-25 00:01:39,051 basehttp 6832 18980 "GET /__debug__/render_panel/?store_id=727c0519a1a949c5bb453865cd790f01&panel_id=HistoryPanel HTTP/1.1" 200 2505
+INFO 2025-01-25 00:01:39,071 basehttp 6832 18980 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+INFO 2025-01-25 00:01:57,401 basehttp 6832 18980 "GET /__debug__/render_panel/?store_id=727c0519a1a949c5bb453865cd790f01&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2025-01-25 00:02:17,301 basehttp 6832 18980 "GET /__debug__/render_panel/?store_id=727c0519a1a949c5bb453865cd790f01&panel_id=SettingsPanel HTTP/1.1" 200 26624
+INFO 2025-01-25 00:02:30,215 basehttp 6832 18980 "GET /__debug__/render_panel/?store_id=727c0519a1a949c5bb453865cd790f01&panel_id=HeadersPanel HTTP/1.1" 200 5208
+INFO 2025-01-25 00:03:03,471 basehttp 6832 18980 "GET /__debug__/render_panel/?store_id=727c0519a1a949c5bb453865cd790f01&panel_id=RequestPanel HTTP/1.1" 200 2374
+INFO 2025-01-25 00:03:33,214 basehttp 6832 18980 "GET /__debug__/render_panel/?store_id=727c0519a1a949c5bb453865cd790f01&panel_id=SQLPanel HTTP/1.1" 200 428
+INFO 2025-01-25 00:04:14,271 basehttp 6832 18980 "GET /__debug__/render_panel/?store_id=727c0519a1a949c5bb453865cd790f01&panel_id=StaticFilesPanel HTTP/1.1" 200 34487
+INFO 2025-01-25 00:04:43,235 basehttp 6832 18980 "GET /__debug__/render_panel/?store_id=727c0519a1a949c5bb453865cd790f01&panel_id=TemplatesPanel HTTP/1.1" 200 6520
+INFO 2025-01-25 00:05:06,880 basehttp 6832 18980 "GET /__debug__/render_panel/?store_id=727c0519a1a949c5bb453865cd790f01&panel_id=CachePanel HTTP/1.1" 200 1737
+INFO 2025-01-25 00:05:11,780 basehttp 6832 18980 "GET /__debug__/render_panel/?store_id=727c0519a1a949c5bb453865cd790f01&panel_id=SignalsPanel HTTP/1.1" 200 2257
+WARNING 2025-01-25 00:07:46,021 log 6832 18980 Not Found: /formsapp/user/add
+WARNING 2025-01-25 00:07:46,021 basehttp 6832 18980 "GET /formsapp/user/add HTTP/1.1" 404 17381
+INFO 2025-01-25 00:07:46,053 basehttp 6832 18980 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-01-25 00:07:46,053 basehttp 6832 16364 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-01-25 00:07:46,068 basehttp 6832 10832 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-01-25 00:07:46,083 basehttp 6832 10832 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2025-01-25 00:08:00,084 basehttp 6832 10832 "GET /forms/user/add HTTP/1.1" 200 15042
+INFO 2025-01-25 00:08:00,115 basehttp 6832 16364 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 200 48
+INFO 2025-01-25 00:08:10,393 basehttp 6832 16364 "GET /forms/user/add/ HTTP/1.1" 200 15278
+INFO 2025-01-25 00:08:16,713 basehttp 6832 16364 "GET /__debug__/render_panel/?store_id=f78290e7d3ab439183630e54da1b6a73&panel_id=ProfilingPanel HTTP/1.1" 200 43735
+INFO 2025-01-25 00:08:44,383 basehttp 6832 16364 "GET /__debug__/render_panel/?store_id=f78290e7d3ab439183630e54da1b6a73&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2025-01-25 00:08:46,202 basehttp 6832 16364 "GET /__debug__/render_panel/?store_id=f78290e7d3ab439183630e54da1b6a73&panel_id=HeadersPanel HTTP/1.1" 200 5421
+INFO 2025-01-25 00:08:47,189 basehttp 6832 16364 "GET /__debug__/render_panel/?store_id=f78290e7d3ab439183630e54da1b6a73&panel_id=RequestPanel HTTP/1.1" 200 2598
+INFO 2025-01-25 00:08:55,943 basehttp 6832 16364 "GET /__debug__/render_panel/?store_id=f78290e7d3ab439183630e54da1b6a73&panel_id=SQLPanel HTTP/1.1" 200 428
+INFO 2025-01-25 01:07:47,485 autoreload 15212 9240 Watching for file changes with StatReloader
+WARNING 2025-01-25 01:08:07,991 log 15212 16528 Not Found: /installapp
+WARNING 2025-01-25 01:08:08,001 basehttp 15212 16528 "GET /installapp HTTP/1.1" 404 17507
+INFO 2025-01-25 01:08:08,022 basehttp 15212 5168 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2025-01-25 01:08:08,022 basehttp 15212 16528 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2025-01-25 01:08:08,026 basehttp 15212 16528 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2025-01-25 01:08:08,040 basehttp 15212 16528 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2025-01-25 01:08:17,370 basehttp 15212 16528 "GET /installapp/db HTTP/1.1" 200 15039
+INFO 2025-01-25 01:08:17,384 basehttp 15212 5168 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 200 48
+ERROR 2025-01-25 01:08:39,925 log 15212 5168 Internal Server Error: /installapp/db/
+Traceback (most recent call last):
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'extend'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\myproject\installapp\views.py", line 13, in total_in_db
+    return render(request, 'installapp/total_count.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\chiffka\Documents\Django_Course\venv\Lib\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 1: 'extend'. Did you forget to register or load this tag?
+ERROR 2025-01-25 01:08:40,096 basehttp 15212 5168 "GET /installapp/db/ HTTP/1.1" 500 154649
+INFO 2025-01-25 01:10:02,999 basehttp 15212 5168 "GET /installapp/db/ HTTP/1.1" 200 14843
+INFO 2025-01-25 01:10:39,799 basehttp 15212 5168 "GET /__debug__/render_panel/?store_id=8381a02e9fc44ca2b65e466c83e78182&panel_id=SQLPanel HTTP/1.1" 200 5322
+INFO 2025-01-25 01:11:00,830 basehttp 15212 5168 "GET /installapp/view/ HTTP/1.1" 200 14829
+INFO 2025-01-25 01:11:09,886 basehttp 15212 5168 "GET /__debug__/render_panel/?store_id=01369b603f484166a529add984e09fff&panel_id=SQLPanel HTTP/1.1" 200 6571
+INFO 2025-01-25 01:11:25,437 basehttp 15212 5168 "GET /__debug__/render_panel/?store_id=01369b603f484166a529add984e09fff&panel_id=ProfilingPanel HTTP/1.1" 200 1979
+INFO 2025-01-25 01:11:51,558 basehttp 15212 5168 "GET /installapp/template HTTP/1.1" 200 15057
+INFO 2025-01-25 01:11:54,397 basehttp 15212 11312 "GET /installapp/template/ HTTP/1.1" 200 14813
+INFO 2025-01-25 01:12:00,393 basehttp 15212 11312 "GET /__debug__/render_panel/?store_id=d0e30e9adf9a43a1aaf7663e510260c5&panel_id=SQLPanel HTTP/1.1" 200 22318
+INFO 2025-01-25 01:12:14,986 basehttp 15212 11312 "GET /__debug__/render_panel/?store_id=d0e30e9adf9a43a1aaf7663e510260c5&panel_id=TemplatesPanel HTTP/1.1" 200 7258
+INFO 2025-01-25 01:12:36,357 basehttp 15212 11312 "GET /__debug__/render_panel/?store_id=d0e30e9adf9a43a1aaf7663e510260c5&panel_id=ProfilingPanel HTTP/1.1" 200 10533
+INFO 2025-01-25 01:12:58,017 basehttp 15212 11312 "GET /installapp/db HTTP/1.1" 200 15039
+INFO 2025-01-25 01:13:01,236 basehttp 15212 19352 "GET /installapp/db/ HTTP/1.1" 200 14843
+INFO 2025-01-25 01:13:07,836 basehttp 15212 19352 "GET /__debug__/render_panel/?store_id=a9dcf99fbfde4711b87b42d373724e3a&panel_id=ProfilingPanel HTTP/1.1" 200 1979
+INFO 2025-01-25 01:13:15,246 basehttp 15212 19352 "GET /__debug__/render_panel/?store_id=a9dcf99fbfde4711b87b42d373724e3a&panel_id=HistoryPanel HTTP/1.1" 200 15710
+INFO 2025-01-25 01:13:15,261 basehttp 15212 19352 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+INFO 2025-01-25 01:13:29,446 basehttp 15212 19352 "GET /__debug__/history_sidebar/?store_id=7dbec253ec5d43aeb945b35deb325024&exclude_history=True HTTP/1.1" 200 12227
+INFO 2025-01-25 01:13:33,176 basehttp 15212 19352 "GET /__debug__/history_sidebar/?store_id=67967fb9b75c4acc89517a4607c2b5da&exclude_history=True HTTP/1.1" 200 12218
+INFO 2025-01-25 01:13:38,716 basehttp 15212 19352 "GET /__debug__/history_sidebar/?store_id=7dbec253ec5d43aeb945b35deb325024&exclude_history=True HTTP/1.1" 200 12227
+INFO 2025-01-25 01:13:44,842 basehttp 15212 19352 "GET /__debug__/history_sidebar/?store_id=67967fb9b75c4acc89517a4607c2b5da&exclude_history=True HTTP/1.1" 200 12218
+INFO 2025-01-25 01:13:52,462 basehttp 15212 19352 "GET /__debug__/history_sidebar/?store_id=8381a02e9fc44ca2b65e466c83e78182&exclude_history=True HTTP/1.1" 200 12261
+INFO 2025-01-25 01:14:01,586 basehttp 15212 19352 "GET /__debug__/history_sidebar/?store_id=01369b603f484166a529add984e09fff&exclude_history=True HTTP/1.1" 200 12263
+INFO 2025-01-25 01:14:06,918 basehttp 15212 19352 "GET /__debug__/render_panel/?store_id=01369b603f484166a529add984e09fff&panel_id=RequestPanel HTTP/1.1" 200 2599
